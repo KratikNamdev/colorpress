@@ -1,3 +1,6 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -206,7 +209,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
 
   border-radius: 5px;
 
@@ -218,11 +221,16 @@ nav {
 .prise{
   text-align: right;
 }
+.rating{
+  display: flex;
+  flex-direction: row;
+}
 .prise p{
   color: #FF066E;
   font-weight: 700;
 }
 .title i{
+  font-size: 15px;
   color: gold;
 }
 .todaydeal{
