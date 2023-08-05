@@ -1,39 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Navbar';
-import NavCategory from './Components/NavCategory';
-import Banner from './Components/Banner';
-import HomeCards from './Components/HomeCards';
-import TodayDeal from './Components/TodayDeal';
-import Grid from './Components/Grid';
-import Footer from './Components/Footer';
+
+import {BrowserRouter as Router , Routes , Route} from 'react-router-dom';
+import Home from './Pages/Home';
+import MyCart from './Pages/MyCart';
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <NavCategory/>
-      <br/>
-      <Banner/>
-      <HomeCards/>
-      <br></br>
-      <HomeCards/>
-      <br></br>
-      <HomeCards/>
-      <br></br>
-      <br></br>
+   <Router>
+   
+      <Routes>
+       <Route path="/" element={<Home/>}/>
+       <Route path="/cart" element={<MyCart/>}/>
 
-      <TodayDeal/>
-      <br/>
-      <Grid/>
-      <br/>
-      <h1 style={{marginLeft:'100px'}}>Your browsing history</h1>
-      <HomeCards/>
-      <br></br>
-      <br></br>
-      <br></br>
-
-      <Footer/>
+        
+      </Routes>
+   
+    </Router>
+    
+     
 
     </>
   );
