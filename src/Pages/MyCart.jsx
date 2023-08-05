@@ -133,7 +133,7 @@ function MyCart() {
       
 
       </div>
-
+<h1 className='justfor'>JUST FOR YOU</h1>
       <HomeCards/>
       <br/>
       <br/>

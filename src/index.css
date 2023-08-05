@@ -368,6 +368,7 @@ nav {
 .container {
   padding-left: 130px;
   padding-right: 130px;
+
 }
 .cart {
   width: 80vw;
@@ -452,4 +453,109 @@ border-radius: 10px;
   border: none;
   border-radius: 5px;
   padding: 10px;
+}
+.justfor{
+  text-align: center;
+  font-weight: 300;
+}
+.myorderheading{
+  display: flex;
+  flex-direction: row;
+}
+.myorderheading p{
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.myorder{
+  height: 100vh;
+  width: 100%;
+  background-color: #F6F6F6;
+  display: flex;
+flex-direction: column;
+  align-items: center;
+}
+.orderdetails{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px rgb(212, 210, 210) solid;
+}
+.orderno{
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ border-right: 1px rgb(212, 210, 210) solid;
+}
+.orderno button{
+  width: 201px;
+  height: 37px;
+  border: none;
+  background-color: #ffffff;
+  font-size: 16px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.orderdate{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+align-items: center;
+  
+}
+.orderdate p{
+  margin-left: 20px;
+}
+.ordercard{
+  width: 95%;
+  background-color: #ffffff;
+  height: 195px;
+  display: flex;
+
+  flex-direction: row;
+
+
+}
+.ordercard-img{
+  width: 250px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+align-items: center;
+}
+.ordercard-img img{
+  height: 144px;
+}
+.ordercard-detail{
+  width: 200px;
+  height: 100%;
+
+
+}
+.qt{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.ordercard-status{
+  width: 35%;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+  /* background-color: #000000; */
+  height: 100%;
+}
+.ordercard-date{
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
 }
