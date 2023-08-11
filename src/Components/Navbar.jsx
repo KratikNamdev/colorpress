@@ -23,7 +23,7 @@ function Navbar() {
       <li><a href="#">Design service</a></li>
       <li><a href="#">Orders</a></li>
       <li><a href="#">Cart</a></li>
-      <li><img src={profile} /></li>
+      <li><img src={profile} style={{marginLeft:'30px',marginTop:'-10px'}} /></li>
     </ul>
   </nav>
    </>

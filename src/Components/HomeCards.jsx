@@ -17,20 +17,20 @@ function HomeCards() {
         </div>
         <div className='card-details'>
         <div className='title'>
-        <h5>Visitng card print</h5>
-        <i class="bi bi-star-fill">
-
-        </i><i class="bi bi-star-fill">
-
-        </i><i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        (297 Rating)
+        <h2>Visiting Card Print</h2>
+        <h3>Starting At</h3>
 
         </div>
+        <br/>
         <div className='prise'>
-        <h5>STARTING AT</h5>
-        <p>$45</p>
+        <h2><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i><span>(295 Rating)</span></h2>
+        <h3>$75</h3>
 
         </div>
 
@@ -46,20 +46,20 @@ function HomeCards() {
         </div>
         <div className='card-details'>
         <div className='title'>
-        <h5>Visitng card print</h5>
-        <i class="bi bi-star-fill">
-
-        </i><i class="bi bi-star-fill">
-
-        </i><i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        (297 Rating)
+        <h2>Visiting Card Print</h2>
+        <h3>Starting At</h3>
 
         </div>
+        <br/>
         <div className='prise'>
-        <h5>STARTING AT</h5>
-        <p>$45</p>
+        <h2><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i><span>(295 Rating)</span></h2>
+        <h3>$75</h3>
 
         </div>
 
@@ -75,20 +75,20 @@ function HomeCards() {
         </div>
         <div className='card-details'>
         <div className='title'>
-        <h5>Visitng card print</h5>
-        <i class="bi bi-star-fill">
-
-        </i><i class="bi bi-star-fill">
-
-        </i><i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        (297 Rating)
+        <h2>Visiting Card Print</h2>
+        <h3>Starting At</h3>
 
         </div>
+        <br/>
         <div className='prise'>
-        <h5>STARTING AT</h5>
-        <p>$45</p>
+        <h2><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i><span>(295 Rating)</span></h2>
+        <h3>$75</h3>
 
         </div>
 
@@ -104,20 +104,20 @@ function HomeCards() {
         </div>
         <div className='card-details'>
         <div className='title'>
-        <h5>Visitng card print</h5>
-        <i class="bi bi-star-fill">
-
-        </i><i class="bi bi-star-fill">
-
-        </i><i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        <i class="bi bi-star-fill"></i>
-        (297 Rating)
+        <h2>Visiting Card Print</h2>
+        <h3>Starting At</h3>
 
         </div>
+        <br/>
         <div className='prise'>
-        <h5>STARTING AT</h5>
-        <p>$45</p>
+        <h2><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i><span>(295 Rating)</span></h2>
+        <h3>$75</h3>
 
         </div>
 

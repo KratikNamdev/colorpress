@@ -28,8 +28,9 @@ nav {
 
 .logo {
   color: #000000;
-  font-size: 30px;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 40px;
+ 
 }
 
 .nav-links {
@@ -42,6 +43,7 @@ nav {
 .nav-links li {
   margin-right: 1rem;
   margin-top: 15px;
+ 
 
 }
 
@@ -49,6 +51,8 @@ nav {
   color: #000000;
   text-decoration: none;
   /* padding: 0.5rem 1rem; */
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .burger {
@@ -73,17 +77,34 @@ nav {
   border: 1px solid rgb(212, 208, 208);
   border-radius: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+
   align-items: center;
+  Width:
+  322px;
+  Height:
+  42px;
+  /* background-color: #ff066e; */
+}
+.nav-input i{
+  font-size: 24px;
+  margin-top: -7px;
 }
 .nv-input {
-  width: 80%;
+  /* Width:
+322px;
+Height:
+42px; */
   border: none;
 }
 
 .nav-search {
-  height: 30px;
-  width: 50px;
+  Width:
+47px;
+Height:
+32px;
   background-color: #ff066e;
   border-radius: 10px;
   text-align: center;
@@ -94,7 +115,9 @@ nav {
 }
 .category {
   height: 40px;
-  width: 100vw;
+  width: 100%;
+  /* padding: 20px 0; */
+  padding-bottom: 20px;
   /* background-color: #FF066E; */
   border-bottom: 1px solid rgb(194, 194, 194);
 }
@@ -105,6 +128,45 @@ nav {
 }
 .category ul li {
   list-style: none;
+}
+
+/* Style the category container */
+.category {
+  
+}
+
+/* Style the scrollable container */
+.scrollable-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Style the horizontal list */
+.horizontal-list {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* Style the list items */
+.horizontal-list li {
+  display: inline-block;
+  padding: 0 10px;
+
+font-size: 16px;
+font-weight: 400;
+}
+
+/* Media query for screens with width up to 765px */
+@media (max-width: 765px) {
+  .scrollable-container {
+    overflow-x: scroll;
+    scrollbar-width: none; /* Hide scrollbars on Firefox */
+    -ms-overflow-style: none; /* Hide scrollbars on Internet Explorer */
+  }
+
+  .scrollable-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbars on Webkit-based browsers */
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -141,21 +203,28 @@ nav {
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+  /* padding-left: 50px; */
+  /* padding-right: 100px; */
 }
 .baner1 {
-  width: 60%;
-  height: 100%;
+  Width:
+871px;
+Height:
+279px;
   /* background-color: #FF066E; */
   background-color: #fff;
   background-image: url(./Assets/Mask\ group.png);
   background-repeat: no-repeat;
 }
 .baner2 {
-  width: 18%;
+  Width:
+270px;
+Height:
+279px;
   background-color: #ff066e;
   color: white;
-  height: 93%;
+  
   background-image: url(./Assets/Mask\ group1.png);
   background-repeat: no-repeat;
   text-align: center;
@@ -164,15 +233,28 @@ nav {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  margin-left: -150px;
+}
+.baner2 h3{
+  font-size: 20px;
+}
+.baner2 p{
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -10px;
 }
 .Quotebtn {
-  width: 90%;
+  Width:
+242px;
+Height:
+39px;
+border-radius: 5px;
   border: 2px solid white;
   background: none;
   color: white;
   font-weight: 700;
-  height: 35px;
-  font-size: 15px;
+  font-size: 20px;
+  margin-top: 10px;
 }
 .home-card {
   /* width: 100vw; */
@@ -184,9 +266,8 @@ nav {
   /* background-color: #FF066E; */
 }
 .card {
-  height: 248px;
+  height: 172px;
   width: 270px;
-  box-shadow: 10px 10px 77px -37px rgba(0, 0, 0, 0.75);
   background-color: rgb(239, 238, 238);
   display: flex;
   flex-direction: column;
@@ -203,30 +284,63 @@ nav {
   align-items: center;
 }
 .card-details {
+  height: 75px;
+  width: 250px;
   margin-top: 5px;
-  background-color: #ffffff;
+
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
+  padding-top: 20px;
+background-color: #FFFFFF;
+box-shadow: 10px 10px 77px -37px rgba(0, 0, 0, 0.75);
 
   border-radius: 5px;
 }
 .title {
-  text-align: left;
-  margin-top: -15px;
+  width: 100%;
+  height: 20px;
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
 }
-.prise {
-  text-align: right;
+.title h2{
+  font-size: 16px;
+
+  font-weight: 500;
 }
-.prise p {
-  color: #ff066e;
-  font-weight: 700;
+.title h3{
+  font-size: 16px;
+
+  font-weight: 400;
 }
-.title i {
-  font-size: 15px;
-  color: gold;
+.prise{
+  width: 100%;
+  height: 20px;
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.prise h2{
+  font-size: 12px;
+color: gold;
+  font-weight: 500;
+}
+.prise h2 span{
+  color: #8C8C8C;
+
+}
+.prise h3{
+  font-size: 16px;
+color: #FF066E;
+  font-weight: 500;
 }
 .todaydeal {
   height: 512px;
