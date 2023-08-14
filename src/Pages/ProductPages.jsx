@@ -58,7 +58,9 @@ function ProductPages() {
         <div className='productpage-cards'>
 
         <div className='productpage-card'>
-        <img src={img1}/>
+     <div className='productpage-card-img'>
+     <img src={img1}/>
+     </div>
         <div  className='productpage-card-title'>
         <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
         <p><i class="bi bi-star-fill">
@@ -78,7 +80,9 @@ function ProductPages() {
 
         </div>
         <div className='productpage-card'>
-        <img src={img1}/>
+     <div className='productpage-card-img'>
+     <img src={img1}/>
+     </div>
         <div  className='productpage-card-title'>
         <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
         <p><i class="bi bi-star-fill">
@@ -98,7 +102,9 @@ function ProductPages() {
 
         </div>
         <div className='productpage-card'>
-        <img src={img1}/>
+     <div className='productpage-card-img'>
+     <img src={img1}/>
+     </div>
         <div  className='productpage-card-title'>
         <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
         <p><i class="bi bi-star-fill">
@@ -118,13 +124,17 @@ function ProductPages() {
 
         </div>
         </div>
+        <br/>
+        <br/>
         <div className='productpage-cards'>
 
-<div className='productpage-card'>
-<img src={img1}/>
-<div  className='productpage-card-title'>
-<p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
-<p><i class="bi bi-star-fill">
+        <div className='productpage-card'>
+     <div className='productpage-card-img'>
+     <img src={img1}/>
+     </div>
+        <div  className='productpage-card-title'>
+        <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
+        <p><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill">
 
@@ -132,39 +142,21 @@ function ProductPages() {
 <i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i></p>
 
-</div>
-<div  className='productpage-card-title'>
-<p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
+        </div>
+        <div  className='productpage-card-title'>
+        <p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
+      
 
+        </div>
 
-</div>
-
-</div>
-<div className='productpage-card'>
-<img src={img1}/>
-<div  className='productpage-card-title'>
-<p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
-<p><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i></p>
-
-</div>
-<div  className='productpage-card-title'>
-<p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
-
-
-</div>
-
-</div>
-<div className='productpage-card'>
-<img src={img1}/>
-<div  className='productpage-card-title'>
-<p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
-<p><i class="bi bi-star-fill">
+        </div>
+        <div className='productpage-card'>
+     <div className='productpage-card-img'>
+     <img src={img1}/>
+     </div>
+        <div  className='productpage-card-title'>
+        <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
+        <p><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill">
 
@@ -172,15 +164,37 @@ function ProductPages() {
 <i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i></p>
 
-</div>
-<div  className='productpage-card-title'>
-<p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
+        </div>
+        <div  className='productpage-card-title'>
+        <p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
+      
 
+        </div>
 
-</div>
+        </div>
+        <div className='productpage-card'>
+     <div className='productpage-card-img'>
+     <img src={img1}/>
+     </div>
+        <div  className='productpage-card-title'>
+        <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
+        <p><i class="bi bi-star-fill">
 
-</div>
-</div>
+</i><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i></p>
+
+        </div>
+        <div  className='productpage-card-title'>
+        <p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
+      
+
+        </div>
+
+        </div>
+        </div>
 
 
 

@@ -17,6 +17,9 @@ function ProductPageDetails() {
   return (
     <>
         <Navbar/>
+        <br/>
+        <br/>
+        <br/>
         <div className='ProductPageDetails'>
         <div className='productimgs'>
         <img src={img}/>
@@ -63,7 +66,9 @@ function ProductPageDetails() {
         </div>
 
 <>
-
+<br/>
+<br/>
+<br/>
 <div className="tab-container">
       <div className="tabs">
         <button
@@ -85,7 +90,7 @@ function ProductPageDetails() {
         
         
         <h1>Product Description</h1>
-        <p>When it's colder than the far side of the moon and spitting rain too, you've still got to look good. From water-repellent leather to a rugged outsole, the Lunar Force 1 adapts AF-1 style, so you can keep your flame burning when the weather hits. Metal lace hardware and extended tongue bring mountain boot toughness, while the star-studded toe design gives your look the edge</p>
+        <p className='tab-p1'>When it's colder than the far side of the moon and spitting rain too, you've still got to look good. From water-repellent leather to a rugged outsole, the Lunar Force 1 adapts AF-1 style, so you can keep your flame burning when the weather hits. Metal lace hardware and extended tongue bring mountain boot toughness, while the star-studded toe design gives your look the edge</p>
         
         <h1>Benefits</h1>
 

@@ -12,82 +12,58 @@ function MyCart() {
       <NavCategory/>
       <br/>
       <div className='container'>
-      <h1>My Cart</h1>
+      <h1 className='mycart'>My Cart</h1>
       <div className='cart'>
       <div className='cart-item-left'>
 
-      <div className='cart-itm'>
-
-      <div className='cart-img'>
-      <img src={img} />
-
-      </div>
-      <div className='cart-title'>
-      <h6>Visitng card print</h6>
-      <p>In Stokes</p>
-
-      </div>
-
-      <div className='cart-rate'>
-      <p>Each</p>
-
-      <h6>$60.00</h6>
-    </div>
-
-
-      <div className='cart-qty'>
-      <p>Quantity</p>
-
-         <h6>$60.00</h6>
-      </div>
-      <div className='cart-x'>
-      <h6>Total</h6>
-
-      <p>$60.00</p>
-
-      </div>
-      <div className='cart-rate'>
-<p style={{marginLeft:'15px'}}>X</p>
-
-</div>
-
-      </div><br/>
-      <div className='cart-itm'>
-
-<div className='cart-img'>
-<img src={img} />
-
-</div>
-<div className='cart-title'>
-<h6>Visitng card print</h6>
-<p>In Stokes</p>
-
-</div>
-
-<div className='cart-rate'>
-<p>Each</p>
-
-<h6>$60.00</h6>
-</div>
-
-
-<div className='cart-qty'>
-<p>Quantity</p>
-
-   <h6>$60.00</h6>
-</div>
-<div className='cart-rate'>
-<h6>Total</h6>
-
+     <div className='cart-itm'>
+     <div className='cart-img'>
+<img src={img}/>
+     </div>
+     <div className='cart-title'>
+<h1>Visiting Card</h1>
+<p>In Stocks</p>
+     </div>
+     <div className='cart-Each' style={{marginLeft:'130px'}}>
+<h1>Each</h1>
 <p>$60.00</p>
+     </div>
+     <div className='cart-Each' style={{marginLeft:'-50px'}} >
+<h1>Quantity</h1>
+<p>$60.00</p>
+     </div>
+     <div className='cart-Each' style={{marginLeft:'10px'}} >
+<h1>Total</h1>
+<p>$60.00</p>
+     </div>
 
-</div>
-<div className='cart-x'>
-<p style={{marginLeft:'15px'}}>X</p>
 
-</div>
+     </div>
 
-</div>
+      <br/>
+      <div className='cart-itm'>
+     <div className='cart-img'>
+<img src={img}/>
+     </div>
+     <div className='cart-title'>
+<h1>Visiting Card</h1>
+<p>In Stocks</p>
+     </div>
+     <div className='cart-Each' style={{marginLeft:'130px'}}>
+<h1>Each</h1>
+<p>$60.00</p>
+     </div>
+     <div className='cart-Each' style={{marginLeft:'-50px'}} >
+<h1>Quantity</h1>
+<p>$60.00</p>
+     </div>
+     <div className='cart-Each' style={{marginLeft:'10px'}} >
+<h1>Total</h1>
+<p>$60.00</p>
+     </div>
+
+
+     </div>
       </div>
       <div className='cart-item-right'>
       <div className='promo'>
@@ -100,25 +76,25 @@ function MyCart() {
       </div>
 
       <div className='billdetails'>
-      <p>Enter Promo Code</p>
+      <p className='ttbil'>Enter Promo Code</p>
       <p>$60.00</p>
 
 
       </div>
       <div className='billdetails'>
-      <p>Shipping cost</p>
+      <p className='ttbil'>Shipping cost</p>
       <p>$19.05</p>
 
 
       </div>
       <div className='billdetails'>
-      <p>Estimated Sales Tax</p>
+      <p className='ttbil'>Estimated Sales Tax</p>
       <p>$0.00</p>
 
 
       </div>
       <div className='billdetails'>
-      <p>Total</p>
+      <p className='ttbil'>Total</p>
       <p><strong>$60.00</strong></p>
 
 

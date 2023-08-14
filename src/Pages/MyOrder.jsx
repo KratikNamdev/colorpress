@@ -9,15 +9,17 @@ function MyOrder() {
     <>
       <Navbar />
       <NavCategory />
+      <br/><br/>
       <div className="container">
         <div className="myorderheading">
+        
           <h1> My Orders</h1>
           <p>
             View and edit all your pending, delivered. and
             <br /> returned orders here.
           </p>
         </div>
-
+        <br/><br/><br/>
         <div className="myorder">
           <div className="orderdetails">
             <div className="orderno">
@@ -139,24 +141,25 @@ function MyOrder() {
             </div>
           </div>
 <br></br>
-          <div className="orderdetails" style={{borderTop:'1px rgb(212, 210, 210) solid'}}>
+          <div className="orderdetails" style={{borderTop:'1px rgb(212, 210, 210) solid' , backgroundColor:'white',borderRadius:'10px'}}>
             <div className="orderno">
               <button>
-                <span style={{ color: "#ff066e" }}>X CANCEL ORDER</span>
+                <span >X CANCEL ORDER</span>
               </button>
             </div>
             <div className="orderdate">
               <p>Paid using credit card ending with 7343</p>
             </div>
             <div className="orderno">
-              <button>
-                <span style={{ color: "#ff066e" }}>→ TRACK ORDER</span>{" "}
-              </button>
+        
+                <span >Rs. 3005</span>{" "}
+              
             </div>
           </div>
         </div>
       </div>
 
+      <br></br>
 
 
       <Footer/>
