@@ -16,11 +16,11 @@ function App() {
    
       <Routes>
        <Route path="/" element={<Home/>}/>
-       <Route path="/cart" element={<MyCart/>}/>
        <Route path="/myorder" element={<MyOrder/>}/>
        <Route path="/productpage" element={<ProductPages/>}/>
        <Route path="/productpagedetails" element={<ProductPageDetails/>}/>
        <Route path="/productpagereview" element={<ProductPageReview/>}/>
+       <Route path="/cart" element={<MyCart/>}/>
 
 
 

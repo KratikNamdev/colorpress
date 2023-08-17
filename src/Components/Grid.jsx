@@ -36,7 +36,7 @@ function Grid() {
         <div className='part2'>
          <div className='coldiv2'>
 
-       <img src={img3}/>
+       <img className='img3' src={img3}/>
 
        </div>
             

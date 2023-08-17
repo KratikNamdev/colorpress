@@ -15,7 +15,7 @@ function Home() {
       <br/>
       <Banner/>
       <HomeCards/>
-      <br></br>
+      {/* <br></br> */}
       <HomeCards/>
       <br></br>
       <HomeCards/>
@@ -26,7 +26,7 @@ function Home() {
       <br/>
       <Grid/>
       <br/>
-      <h1 style={{marginLeft:'100px'}}>Your browsing history</h1>
+      <h1 className='browse' >Your browsing history</h1>
       <HomeCards/>
       <br></br>
       <br></br>

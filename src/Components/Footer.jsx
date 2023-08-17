@@ -17,7 +17,8 @@ function Footer() {
     <img src={img2}/>
 
     </div>
-    <div className='footer-part2'>
+  <div className='foot-ul'>
+  <div className='footer-part2'>
     <ul>
     Let us help<br/><br/><br/>
 
@@ -59,6 +60,7 @@ function Footer() {
     </ul>
 
 </div>
+  </div>
 
     </div>
    </>

@@ -6,7 +6,7 @@ function ProductPageReview() {
     <>
         <Navbar/>
         <div className='product-review'>
-        <p style={{textAlign:'right'}}>Welcome! <span style={{color:"#ff066e"}}>Chaitany Goyal</span></p>
+        <p className='welcome'>Welcome! <span style={{color:"#ff066e"}}>Chaitany Goyal</span></p>
 
 
 
@@ -37,7 +37,7 @@ Manage My Account
 </ul>
                 </div>
                 <div className='review-form'>
-                <p className='rfhead' style={{marginLeft:'39px'}}>Edit Your Profile</p>
+                <p className='rfhead' >Edit Your Profile</p>
                 <div className='review-form-input'>
                     <div className='int'>
                         <label>First Name</label>
@@ -71,8 +71,10 @@ Manage My Account
                     
                 </div>
                 <br/>
-                <button className='cncl'>Cancel</button>
-                <button className='subt'>Submit</button>
+                <div class="button-container">
+    <button class="cncl">Cancel</button><br/>
+    <button class="subt">Submit</button>
+</div>
 
 
 
