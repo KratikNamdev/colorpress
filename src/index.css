@@ -1478,7 +1478,7 @@ align-items: center;
   .todaydeal{
     height: 175vh;
     width: 100vw;
-    padding-left: 10px;
+    padding-left: 1px;
     padding-right: 10px;
     text-align: center;
 
@@ -1498,7 +1498,7 @@ align-items: center;
   .todaydeal{
     height: 250vh;
     width: 100vw;
-    padding-left: 10px;
+    padding-left: 1px;
     padding-right: 10px;
     text-align: center;
 
