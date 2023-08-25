@@ -1468,3 +1468,45 @@ align-items: center;
 }
 }
 
+
+
+@media screen and (max-width: 480px){
+  .Bannerr{
+    margin-top: -120px;
+    height: 80vh;
+  }
+  .todaydeal{
+    height: 175vh;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+  }
+  .grid{
+    height: 165vh;
+  }
+  .browse{
+   display: none;
+  }
+}
+@media screen and (max-width: 380px){
+  .Bannerr{
+    margin-top: -120px;
+    height: 110vh;
+  }
+  .todaydeal{
+    height: 250vh;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+  }
+  .grid{
+    height: 210vh;
+  }
+  .browse{
+   display: none;
+  }
+}

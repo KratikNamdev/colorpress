@@ -26,6 +26,8 @@ function Home() {
       <br/>
       <Grid/>
       <br/>
+      <br/>
+
       <h1 className='browse' >Your browsing history</h1>
       <HomeCards/>
       <br></br>
