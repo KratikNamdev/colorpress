@@ -1489,6 +1489,27 @@ align-items: center;
   .browse{
    display: none;
   }
+  .tb2{
+    margin-left: 5px;
+  }
+  .reviews{
+  
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .userreview{
+    width: 70vw;
+  
+  }
+  .review{
+    height: auto ;
+    width: 100vw;
+  
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 380px){
   .Bannerr{
