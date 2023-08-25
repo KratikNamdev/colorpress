@@ -1,5 +1,6 @@
 import React from 'react'
 import profile from '../Assets/Ellipse 1.png'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -19,11 +20,11 @@ function Navbar() {
     <div className='nav-search'><i class="bi bi-search"></i></div>
     </div>
     <ul class="nav-links">
-      <li><a href="#">Corporate pricing</a></li>
-      <li><a href="#">Design service</a></li>
-      <li><a href="#">Orders</a></li>
-      <li><a href="#">Cart</a></li>
-      <li><img src={profile} style={{marginLeft:'30px',marginTop:'-10px'}} /></li>
+      <li><Link to="/">Home</Link></li>
+      <li> <Link to="/productpage">Products</Link></li>
+      <li><Link to="/myorder">My Orders</Link></li>
+      <li><Link to="/productpagereview">My Cart</Link></li>
+      <li><Link to="/cart"><img src={profile} style={{marginLeft:'30px',marginTop:'-10px'}} /></Link></li>
     </ul>
   </nav>
    </>

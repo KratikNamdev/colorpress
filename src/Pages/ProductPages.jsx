@@ -58,7 +58,33 @@ function ProductPages() {
         <div className='productpage-item'>
         <div className='productpage-cards'>
 
-        <div className='productpage-card'>
+<div className='new-card'>
+<div className='new-card-img'>
+<img src={img1}/>
+</div>
+<div className='new-card-detail'>
+<p className='new-product-name'>Visiting Card</p>
+<p className='new-star'><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i></p>
+<p className='newprise'>$ 400</p>
+<div className='hov' id='h'>
+<p>$400</p>
+<button>Add To Cart</button>
+
+</div>
+</div>
+
+</div>
+
+
+
+
+        {/* <div className='productpage-card'>
      <div className='productpage-card-img'>
      <img src={img1}/>
      </div>
@@ -79,122 +105,123 @@ function ProductPages() {
 
         </div>
 
-        </div>
-        <div className='productpage-card'>
-     <div className='productpage-card-img'>
-     <img src={img1}/>
-     </div>
-        <div  className='productpage-card-title'>
-        <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
-        <p><i class="bi bi-star-fill">
+        </div> */}
+        <div className='new-card'>
+<div className='new-card-img'>
+<img src={img1}/>
+</div>
+<div className='new-card-detail'>
+<p className='new-product-name'>Visiting Card</p>
+<p className='new-star'><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i></p>
+<p className='newprise'>$ 400</p>
+<div className='hov' id='h'>
+<p>$400</p>
+<button>Add To Cart</button>
 
-        </div>
-        <div  className='productpage-card-title'>
-        <p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
-      
+</div>
+</div>
 
-        </div>
-
-        </div>
-        <div className='productpage-card'>
-     <div className='productpage-card-img'>
-     <img src={img1}/>
-     </div>
-        <div  className='productpage-card-title'>
-        <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
-        <p><i class="bi bi-star-fill">
+</div>
+       <div className='new-card'>
+<div className='new-card-img'>
+<img src={img1}/>
+</div>
+<div className='new-card-detail'>
+<p className='new-product-name'>Visiting Card</p>
+<p className='new-star'><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i></p>
+<p className='newprise'>$ 400</p>
+<div className='hov' id='h'>
+<p>$400</p>
+<button>Add To Cart</button>
 
-        </div>
-        <div  className='productpage-card-title'>
-        <p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
-      
+</div>
+</div>
 
-        </div>
-
-        </div>
+</div>
         </div>
         <br/>
         <br/>
-        <div className='productpage-cards'>
+      
+        <div className='productpage-cards' id='c2'>
 
-        <div className='productpage-card'>
-     <div className='productpage-card-img'>
-     <img src={img1}/>
-     </div>
-        <div  className='productpage-card-title'>
-        <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
-        <p><i class="bi bi-star-fill">
+        <div className='new-card'>
+<div className='new-card-img'>
+<img src={img1}/>
+</div>
+<div className='new-card-detail'>
+<p className='new-product-name'>Visiting Card</p>
+<p className='new-star'><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i></p>
+<p className='newprise'>$ 400</p>
+<div className='hov' id='h'>
+<p>$400</p>
+<button>Add To Cart</button>
 
-        </div>
-        <div  className='productpage-card-title'>
-        <p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
-      
+</div>
+</div>
 
-        </div>
-
-        </div>
-        <div className='productpage-card'>
-     <div className='productpage-card-img'>
-     <img src={img1}/>
-     </div>
-        <div  className='productpage-card-title'>
-        <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
-        <p><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i></p>
-
-        </div>
-        <div  className='productpage-card-title'>
-        <p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
-      
-
-        </div>
-
-        </div>
-        <div className='productpage-card'>
-     <div className='productpage-card-img'>
-     <img src={img1}/>
-     </div>
-        <div  className='productpage-card-title'>
-        <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
-        <p><i class="bi bi-star-fill">
+</div>
+       <div className='new-card'>
+<div className='new-card-img'>
+<img src={img1}/>
+</div>
+<div className='new-card-detail'>
+<p className='new-product-name'>Visiting Card</p>
+<p className='new-star'><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill">
 
 </i><i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i>
 <i class="bi bi-star-fill"></i></p>
+<p className='newprise'>$ 400</p>
+<div className='hov' id='h'>
+<p>$400</p>
+<button>Add To Cart</button>
 
-        </div>
-        <div  className='productpage-card-title'>
-        <p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
-      
+</div>
+</div>
 
-        </div>
+</div>
+        <div className='new-card'>
+<div className='new-card-img'>
+<img src={img1}/>
+</div>
+<div className='new-card-detail'>
+<p className='new-product-name'>Visiting Card</p>
+<p className='new-star'><i class="bi bi-star-fill">
 
-        </div>
+</i><i class="bi bi-star-fill">
+
+</i><i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i>
+<i class="bi bi-star-fill"></i></p>
+<p className='newprise'>$ 400</p>
+<div className='hov' id='h'>
+<p>$400</p>
+<button>Add To Cart</button>
+
+</div>
+</div>
+
+</div>
         </div>
 
 
