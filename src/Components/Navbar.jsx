@@ -23,8 +23,8 @@ function Navbar() {
       <li><Link to="/">Home</Link></li>
       <li> <Link to="/productpage">Products</Link></li>
       <li><Link to="/myorder">My Orders</Link></li>
-      <li><Link to="/productpagereview">My Cart</Link></li>
-      <li><Link to="/cart"><img src={profile} style={{marginLeft:'30px',marginTop:'-10px'}} /></Link></li>
+      <li><Link to="/cart">My Cart</Link></li>
+      <li><Link to="/productpagereview"><img src={profile} style={{marginLeft:'30px',marginTop:'-10px'}} /></Link></li>
     </ul>
   </nav>
    </>

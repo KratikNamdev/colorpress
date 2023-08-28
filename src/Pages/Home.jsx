@@ -6,6 +6,7 @@ import HomeCards from '../Components/HomeCards';
 import TodayDeal from '../Components/TodayDeal';
 import Grid from '../Components/Grid';
 import Footer from '../Components/Footer';
+import Explore from '../Components/Explore';
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
       <TodayDeal/>
       <br/>
       <Grid/>
+      <Explore/>
       <br/>
       <br/>
 
