@@ -5,7 +5,8 @@ function Explore() {
     <>
       <div className="ecpcat">
         <h2>Explore all categories</h2>
-        <div className="cate">
+     <div className="scroll-container">
+     <div className="cate">
           <div className="circle"></div>
           <div className="circle"></div> <div className="circle"></div>{" "}
           <div className="circle"></div> <div className="circle"></div>{" "}
@@ -17,6 +18,7 @@ function Explore() {
           <div className="circle"></div> <div className="circle"></div>{" "}
           <div className="circle"></div> <div className="circle"></div>
         </div>
+     </div>
       </div>
     </>
   );

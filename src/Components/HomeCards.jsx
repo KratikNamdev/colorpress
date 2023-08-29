@@ -5,7 +5,8 @@ import img1 from '../Assets/Rectangle 122.png'
 function HomeCards() {
   return (
     <>
-        <div className='home-card'>
+       <div  className='scroll-container'>
+       <div className='home-card'>
         <div className='new-card'>
 <div className='new-card-img'>
 <img src={img1}/>
@@ -96,6 +97,7 @@ function HomeCards() {
 </div>
 
         </div>
+       </div>
     </>
   )
 }
