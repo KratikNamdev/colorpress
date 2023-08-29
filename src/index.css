@@ -366,6 +366,7 @@ border-radius: 5px;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  padding-left: 20px;
 
   /* background-color: #00BDDB; */
 }
@@ -456,8 +457,8 @@ color: #00BDDB;
   flex-direction: column;
   justify-content: space-evenly;
   /* align-items: center; */
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 20px;
+
 }
 .cards-sets {
   display: flex;
@@ -560,24 +561,7 @@ margin-top: -20px;
 }
 
 @media screen and (max-width: 768px){
-  .scroll-container {
-    display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    width: 100%; /* Make sure the container takes up full width */
-    max-width: 768px; /* Set the maximum width for horizontal scrolling */
-    margin: 0 auto; /* Center the container horizontally */
-  }
-  .cate {
-    display: flex;
-    align-items: center; /* Vertically align the circles */
-    gap: 16px; /* Adjust the gap between circles */
-  }
 
-  .home-card {
-    display: flex;
-    flex-wrap: nowrap; /* Prevent cards from wrapping to the next line */
-    gap: 16px; /* Adjust the gap between cards */
-  }
   
   .grid{
     padding-top: 30px;
@@ -1371,17 +1355,10 @@ background-color: #F5F5F5;
 
 @media screen and (max-width: 480px){
   .Bannerr{
-    margin-top: -120px;
-    height: 80vh;
+    /* margin-top: -120px; */
+    height: 50vh;
   }
-  .todaydeal{
-    height: 175vh;
-    width: 100vw;
-    padding-left: 1px;
-    padding-right: 10px;
-    text-align: center;
 
-  }
   .grid{
     height: 165vh;
   }
@@ -1412,22 +1389,11 @@ background-color: #F5F5F5;
 }
 @media screen and (max-width: 380px){
   .Bannerr{
-    margin-top: -120px;
-    height: 110vh;
+    /* margin-top: -120px; */
+    height: 60vh;
   }
 
-  .home-card{
-    height: 1550px;
-    margin-bottom: 120px;
-  }
-  .todaydeal{
-    height: 250vh;
-    width: 100vw;
-    padding-left: 1px;
-    padding-right: 10px;
-    text-align: center;
 
-  }
   .grid{
     height: 210vh;
   }
@@ -1543,3 +1509,31 @@ display: flex;
 
 
 
+
+@media (max-width: 1280px){
+  .scroll-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    width: 100vw; /* Make sure the container takes up full width */
+    max-width: 768px; /* Set the maximum width for horizontal scrolling */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  .cate , .cards-sets {
+    display: flex;
+    align-items: center; /* Vertically align the circles */
+    gap: 16px; /* Adjust the gap between circles */
+  }
+
+  .home-card {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent cards from wrapping to the next line */
+    gap: 16px; /* Adjust the gap between cards */
+  }
+  .ecpcat{
+    height: 200px;
+    /* background-color: #00BDDB; */
+  
+    margin-top: 100px;
+
+  }
+}

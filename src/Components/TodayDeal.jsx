@@ -11,7 +11,8 @@ function TodayDeal() {
     <div className='todaydeal'>
 
     <h1 style={{color: '#ffffff'}}>Today's deal </h1>
-   <div className='cards-sets'>
+<div className='scroll-container'>
+<div className='cards-sets'>
    <div className='deal-card'>
     <img className='igt' src={img}/>
     <div className='detail'>
@@ -49,6 +50,7 @@ function TodayDeal() {
 
     </div>
    </div>
+</div>
     </div>
 </>
   )
