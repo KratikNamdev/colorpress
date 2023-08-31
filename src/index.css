@@ -620,6 +620,7 @@ color: #00BDDB;
   margin-left: 10px;
   font-size: 25px;
   text-align: center;
+  margin-top: 20px;
 
 
 }
@@ -1615,6 +1616,7 @@ display: flex;
     /* background-color: #00BDDB; */
   
     margin-top: 100px;
+    margin-bottom: 30px;
 
   }
   .lis{
