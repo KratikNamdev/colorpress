@@ -39,7 +39,7 @@ function Grid() {
 </div>
     </div>
     <div className='bottomnode'>
-    <img src={img4}/>
+    <img className='one' src={img4}/>
     <img src={img5}/>
     <img className='lst' src={img6}/>
 

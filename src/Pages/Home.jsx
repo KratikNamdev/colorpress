@@ -29,6 +29,7 @@ function Home() {
       <Explore/>
       <br/>
       <br/>
+      <br/>
 
       <h1 className='browse' >Your browsing history</h1>
       <HomeCards/>

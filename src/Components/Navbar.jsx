@@ -10,7 +10,7 @@ function Navbar() {
       </a>
 
       <button
-        class="navbar-toggler"
+        class="navbar-toggler bg-light"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -24,7 +24,7 @@ function Navbar() {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <form class="nav-form">
           <input
-            class="form-control mr-sm-2"
+            class="form-control mr-sm-2 navin"
             type="search"
             placeholder="Find Product"
             aria-label="Search"
