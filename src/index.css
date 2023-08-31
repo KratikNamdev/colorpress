@@ -79,6 +79,7 @@ code {
 }
 
 @media (max-width: 768px){
+
     .navbar{
         opacity: 0.95;
     }
@@ -377,7 +378,7 @@ border-radius: 5px;
     align-items: center;
     justify-content: center;
   }.baner1{
-    width: 400px;
+    width: 350px;
     height: 150px;
     background-color: #755764;
     background-image: url(./Assets/Mask\ group.png);
@@ -398,7 +399,7 @@ border-radius: 5px;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 10px;
 
   /* background-color: #00BDDB; */
 }
@@ -1784,43 +1785,43 @@ nav{
 padding-left: 20% !important;
 }
 .category{
-padding-left: 15% !important;
+padding-left: 15% ;
 padding-right: 15%;
 
 }
 .cards-sets , .product-review , .tab-container , .ProductPageDetails , .productpage ,.Bannerr ,.home-card, .scroll-container ,  .ecpcat , .footer{
-  padding-left: 15% !important;
+  padding-left: 15% ;
 padding-right: 15%;
 }
 
 }
 @media (max-width: 2000px){
   nav{
-    padding-left: 10% !important;
+    padding-left: 10% ;
     padding-right: 10%;
     }
     .category{
-    padding-left: 8% !important;
+    padding-left: 8% ;
     padding-right: 8%;
     
     }
     .cards-sets ,  .product-review ,.tab-container , .ProductPageDetails ,.productpage ,.Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
-      padding-left: 8% !important;
+      padding-left: 8%;
     padding-right:8%;
     }
 }
 @media (max-width: 1500px){
   nav{
-    padding-left: 5% !important;
+    padding-left: 5% ;
     padding-right:5%;
     }
     .category{
-    padding-left: 3% !important;
+    padding-left: 3% ;
     padding-right: 3%;
     
     }
     .cards-sets ,  .product-review , .tab-container , .ProductPageDetails ,.productpage ,.Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
-      padding-left: 3% !important;
+      padding-left: 3% ;
     padding-right:3%;
     }
 }
@@ -1847,6 +1848,40 @@ padding-right: 15%;
 
 
 .product-review , .tab-container , .ProductPageDetails ,.productpage ,.Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
-  padding-left: 10px !important;
+  padding-left: 10px;
 padding-right:10px;
+}
+@media (max-width: 1670px){
+.profile{
+  margin-left: 10px;
+}
+}
+/* .home-card{
+  padding-left: 10px;
+padding-right:10px;
+} */
+
+@media (max-width: 1800px){
+  .home-card{
+  padding-left: 10px;
+padding-right:10px;
+}
+}
+@media (max-width: 1800px){
+  #navl{
+    margin-left: -100px !important;
+  }
+}
+@media (max-width: 1800px){
+  nav{
+  
+  }
+  #logo{
+    margin-left: -100px;
+  }
+}
+@media (max-width: 940px){
+  #logo{
+    margin-left: -1px;
+  }
 }
