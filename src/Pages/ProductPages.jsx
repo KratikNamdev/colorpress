@@ -12,19 +12,21 @@ function ProductPages() {
 
         <div className='productpage-list'>
         <h3>Products</h3>
-        
+  
         <ul className='pdl'>
-            <li>Categories</li>
-            <li>Categories</li>
-            <li>Categories</li>
-            <li>Categories</li>
-            <li>Categories</li>
-            <li>Categories</li>
-            <li>Categories</li>
-            <li>Categories</li>
-            <li>Categories</li>
-            <li>Categories</li>
-            <li>Categories</li>
+        <div  className='scroll-container'>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+            <li className='lis'>Categories</li>
+        </div>
         </ul>
 
         </div>
@@ -54,7 +56,7 @@ function ProductPages() {
   </div>
         </div>
 
-
+        <div  className='scroll-container'>
         <div className='productpage-item'>
         <div className='productpage-cards'>
 
@@ -81,31 +83,6 @@ function ProductPages() {
 
 </div>
 
-
-
-
-        {/* <div className='productpage-card'>
-     <div className='productpage-card-img'>
-     <img src={img1}/>
-     </div>
-        <div  className='productpage-card-title'>
-        <p style={{fontWeight:'600',fontSize:'20px'}}>Visiting Card</p>
-        <p><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i></p>
-
-        </div>
-        <div  className='productpage-card-title'>
-        <p style={{color:'#ff066e' ,fontWeight:'600',fontSize:'20px'}}>$180 </p>
-      
-
-        </div>
-
-        </div> */}
         <div className='new-card'>
 <div className='new-card-img'>
 <img src={img1}/>
@@ -227,6 +204,7 @@ function ProductPages() {
 
 
 
+        </div>
         </div>
 
 </div>

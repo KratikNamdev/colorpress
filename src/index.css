@@ -1,5 +1,6 @@
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -182,13 +183,42 @@ code {
     .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
         transform: rotate(-45deg);
     }
-
+    .int1 input{
+      width: 85% !important;
+    }
+    .int input{
+      Width:
+    85% !important;
+    Height:
+    50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F5F5F5;
+    }
+    .review-form{
+      width: 100% !important;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .welcome{
+      height: 50px !important;
+    }
+    .product-review{
+      display: flex;
+      flex-direction: column;
+    }
+    .review-form{
+      padding: 10px !important;
+    }
+ 
 }
 
 @media (max-width: 500px){
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
+
 }
 
 
@@ -281,7 +311,7 @@ font-weight: 400;
 
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   /* padding-left: 50px; */
   /* padding-right: 100px; */
 }
@@ -499,62 +529,7 @@ color: #00BDDB;
   padding-right: 10px;
   font-weight: 500;
 }
-.grid {
-  height: 100vh;
-  width: 100vw;
-}
-.part-one {
-  height: 530px;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.part-two {
-  height: 240px;
-margin-top: -20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-
-}
-.part1,
-.part2 {
-  width: 38%;
-  height: 100%;
-}
-
-.prt {
-  width: 78%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-
-}
-.pt1 {
-  width: 270px;
-  height: 186px;
-}
-.coldiv,
-.coldiv2 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.pt2 {
-  width: 270px;
-  height: 211px;
-}
-.pt3 {
-  width: 370px;
-  height: 211px;
-}
-.pt4 {
-  width: 470px;
-  height: 211px;
-}
 .browse{
   /* margin-left: 100px; */
   text-align: center;
@@ -642,6 +617,45 @@ margin-top: -20px;
   margin-left: 10px;
   font-size: 25px;
   text-align: center;
+
+
+}
+.ordercard{
+  flex-direction: column !important;
+  height: auto !important;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.ordercard-detail{
+  width: 100%;
+  text-align: center;
+}
+.qt{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.ordercard-status{
+flex-direction: row !important;
+width: 100%;
+justify-content: space-around !important;
+align-items: center;
+}
+.ordercard-date{
+  display: flex;
+  width: 100%;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+align-items: center;
+}
+
+.review-form-input{
+  flex-direction: column !important;
+}
+.product-review{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 }
 
@@ -929,10 +943,8 @@ align-items: center;
   height: 144px;
 }
 .ordercard-detail{
-  width: 200px;
+  width: 300px;
   height: 100%;
-
-
 }
 .qt{
   display: flex;
@@ -958,7 +970,7 @@ align-items: center;
 }
 
 .productpage{
-  height: 100vh;
+  height:auto;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -977,9 +989,16 @@ align-items: center;
    padding: 20px;
 
 }
+.productpage-item h1{
+  text-align: center;
+}
+.pdl{}
 .pdl li{
+  width: 150px;
+
   list-style: none;
   margin-top: 30px;
+  margin-left: 30px;
 }
 .filter{
   Width:100%;
@@ -1354,6 +1373,9 @@ background-color: #F5F5F5;
 
 
 @media screen and (max-width: 480px){
+  .welcome{
+    float: left;
+  }
   .Bannerr{
     /* margin-top: -120px; */
     height: 50vh;
@@ -1395,7 +1417,8 @@ background-color: #F5F5F5;
 
 
   .grid{
-    height: 210vh;
+    height: 195vh;
+    background-color: #00BDDB;
   }
   .browse{
    display: none;
@@ -1535,5 +1558,145 @@ display: flex;
   
     margin-top: 100px;
 
+  }
+  .lis{
+    display: flex !important;
+    flex-wrap: nowrap !important; /* Prevent cards from wrapping to the next line */
+    gap: 16px !important; 
+  }
+}
+
+
+@media screen and (max-width: 1300px){
+  .productpage{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .productpage-list{
+    width: 100vw !important;
+    border: none;
+  }
+  .filter{
+    display: none;
+  }
+  .productpage-item{
+    width: auto;
+    height:auto;
+     padding: 20px;
+    
+  
+  }
+  .productpage-cards{
+    gap: 16px;
+  }
+  .ProductPageDetails{
+    /* height: 80vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .productdetails{
+
+    width: 80%;
+  
+  }
+  .productimgs{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1390px){
+.review-form{
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+
+}
+.menu{
+  width: 40%;
+}
+}
+@media screen and (max-width: 1050px){
+  .menu{
+    display: none;
+  }
+  .review-form{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+  }
+}
+
+
+.topnode{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.bottomnode{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+
+  margin-top: 20px;
+  gap: 25px;
+}
+.top-left-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-left{
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* align-items: center; */
+}
+.top-right{
+  width: 630px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1300px){
+  .topnode{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .bottomnode{
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 580px){
+  .top-left-top{
+    flex-direction: column !important;
+  
+  }
+  .top-left-bottom img{
+    height: 200px !important;
+    margin-top: 20px;
+  }
+  .top-right img{
+    height: 300px;
+    margin-top: 70px;
   }
 }
