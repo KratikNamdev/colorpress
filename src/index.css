@@ -1,5 +1,6 @@
 * {
   font-family: "Poppins", sans-serif;
+
   box-sizing: border-box;
 }
 body {
@@ -238,6 +239,7 @@ code {
   padding-bottom: 50px;
   /* background-color: #00BDDB; */
   border-bottom: 1px solid rgb(194, 194, 194);
+  margin-top: 40px;
 }
 .category ul {
   display: flex;
@@ -1703,11 +1705,17 @@ display: flex;
     margin-top: 70px;
   }
 }
-
+nav{
+  height: 100px !important;
+}
+#logo{
+  font-size: 40px;
+}
 @media (max-width: 870px){
 .footer{
   height: auto;
   flex-direction: column;
+  
 }
 .footer-part2 {
   width: auto;
@@ -1722,4 +1730,94 @@ display: flex;
   width: auto;
   padding-right: 10px;
 }
+
+}
+
+
+.nav-form input{
+  Width:
+322px !important;
+Height:
+42px !important;
+border-radius: 10px !important;
+
+
+
+}
+.profile{
+  height: 50px;
+  width: 50px;
+  margin-left: 100px;
+}
+
+ 
+#navl{
+
+display: flex;
+align-items: center;
+}
+.circle img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+#navbarSupportedContent{
+  margin-left: 30%;
+}
+
+@media (max-width: 1470px){
+  #navbarSupportedContent{
+    margin-left: 1%;
+  }
+  .profile{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+  }
+}
+
+
+@media (max-width: 2999px){
+nav{
+padding-left: 20% !important;
+}
+.category{
+padding-left: 15% !important;
+padding-right: 15%;
+
+}
+.Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
+  padding-left: 15% !important;
+padding-right: 15%;
+}
+}
+@media (max-width: 2000px){
+  nav{
+    padding-left: 10% !important;
+    padding-right: 10%;
+    }
+    .category{
+    padding-left: 8% !important;
+    padding-right: 8%;
+    
+    }
+    .Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
+      padding-left: 8% !important;
+    padding-right:8%;
+    }
+}
+@media (max-width: 1500px){
+  nav{
+    padding-left: 5% !important;
+    padding-right:5%;
+    }
+    .category{
+    padding-left: 3% !important;
+    padding-right: 3%;
+    
+    }
+    .Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
+      padding-left: 3% !important;
+    padding-right:3%;
+    }
 }

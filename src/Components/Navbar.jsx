@@ -1,27 +1,67 @@
-import React from 'react'
+import React from "react";
+import img from '../Assets/Ellipse 1.png'
 
 function Navbar() {
   return (
-    <nav class="navbar">
-        <div class="navbar-container container">
-            <input type="checkbox" name="" id=""/>
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </div>
-            <ul class="menu-items">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Category</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <h1 class="logo">colorpress</h1>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#" id="logo">
+        colorpress
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="nav-form">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Find Product"
+            aria-label="Search"
+          />
+        </form>
+        <ul class="navbar-nav mr-auto" id="navl">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              Home <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Products
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              MyOrder
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Review
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+             <img className="profile" src={img}/>
+            </a>
+          </li>
+     
+      
+        </ul>
+      </div>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

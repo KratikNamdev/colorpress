@@ -10,7 +10,7 @@ function TodayDeal() {
 <>
     <div className='todaydeal'>
 
-    <h1 style={{color: '#ffffff'}}>Today's deal </h1>
+    <h1 style={{color: '#ffffff' , textAlign:'center'}}>Today's deal </h1>
 <div className='scroll-container'>
 <div className='cards-sets'>
    <div className='deal-card'>
