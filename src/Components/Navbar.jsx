@@ -1,5 +1,6 @@
 import React from "react";
 import img from '../Assets/Ellipse 1.png'
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -32,17 +33,22 @@ function Navbar() {
         <ul class="navbar-nav mr-auto" id="navl">
           <li class="nav-item active">
             <a class="nav-link" href="#">
-              Home <span class="sr-only">(current)</span>
+            <Link to='/'>  Home <span class="sr-only">(current)</span></Link>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              Products
+
+            <Link to='/productpage'> Products</Link>
+
+              
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              MyOrder
+            <Link to='/myorder'> MyOrder</Link>
+
+              
             </a>
           </li>
           <li class="nav-item">
