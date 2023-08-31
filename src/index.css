@@ -1422,7 +1422,9 @@ background-color: #F5F5F5;
     /* margin-top: -120px; */
     height: 60vh;
   }
-
+  #logo{
+    margin-left: -25px !important;
+  }
 
   .grid{
     height: 195vh;
