@@ -1788,10 +1788,11 @@ padding-left: 15% !important;
 padding-right: 15%;
 
 }
-.product-review , .tab-container , .ProductPageDetails , .productpage ,.Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
+.cards-sets , .product-review , .tab-container , .ProductPageDetails , .productpage ,.Bannerr ,.home-card, .scroll-container ,  .ecpcat , .footer{
   padding-left: 15% !important;
 padding-right: 15%;
 }
+
 }
 @media (max-width: 2000px){
   nav{
@@ -1803,7 +1804,7 @@ padding-right: 15%;
     padding-right: 8%;
     
     }
-    .product-review ,.tab-container , .ProductPageDetails ,.productpage ,.Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
+    .cards-sets ,  .product-review ,.tab-container , .ProductPageDetails ,.productpage ,.Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
       padding-left: 8% !important;
     padding-right:8%;
     }
@@ -1818,7 +1819,7 @@ padding-right: 15%;
     padding-right: 3%;
     
     }
-    .product-review , .tab-container , .ProductPageDetails ,.productpage ,.Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
+    .cards-sets ,  .product-review , .tab-container , .ProductPageDetails ,.productpage ,.Bannerr , .scroll-container , .todaydeal , .ecpcat , .footer{
       padding-left: 3% !important;
     padding-right:3%;
     }
