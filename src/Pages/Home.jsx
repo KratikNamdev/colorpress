@@ -23,7 +23,11 @@ function Home() {
     <Grid/>
     <Explore/>
     <br/>
+    <br/>
+
     <h1 className='browse'> Your Browsing History</h1>
+    <br/>
+
     <HomeCards/>
     <Footer/>
 </>
