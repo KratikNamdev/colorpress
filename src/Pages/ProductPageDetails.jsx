@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from '../Components/Navbar'
+// import Navbar from '../Components/Navbar'
 import img from '../Assets/Rectangle 303.png'
 import tick from '../Assets/Check icon.png'
 import star from '../Assets/star.png'
@@ -16,7 +16,7 @@ function ProductPageDetails() {
 
   return (
     <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <br/>
         <br/>
         <br/>

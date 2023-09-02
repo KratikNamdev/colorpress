@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
+// import Navbar from '../Components/Navbar'
 
 function ProductPageReview() {
   return (
     <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <div className='product-review'>
         <p className='welcome'>Welcome! <span style={{color:"#ff066e"}}>Chaitany Goyal</span></p>
 

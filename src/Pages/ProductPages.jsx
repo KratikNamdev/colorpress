@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
+// import Navbar from '../Components/Navbar'
 import img from '../Assets/material-symbols_search.png'
 import img1 from '../Assets/Rectangle 122.png'
 
@@ -7,7 +7,7 @@ import img1 from '../Assets/Rectangle 122.png'
 function ProductPages() {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
         <div className='productpage'>
 
         <div className='productpage-list'>
@@ -60,145 +60,179 @@ function ProductPages() {
         <div className='productpage-item'>
         <div className='productpage-cards'>
 
-<div className='new-card'>
-<div className='new-card-img'>
+        <div className='pd-card'>
+        <div className='new-card-img'>
 <img src={img1}/>
 </div>
-<div className='new-card-detail'>
-<p className='new-product-name'>Visiting Card</p>
-<p className='new-star'><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i></p>
-<p className='newprise'>$ 400</p>
-<div className='hov' id='h'>
-<p>$400</p>
-<button>Add To Cart</button>
-
-</div>
-</div>
+<div className='new-details'>
+<div className='pd-name'>
+  <p className='pd-name-name'>Product name</p>
+  <p className='pd-name-start'>STARTING AT</p>
 
 </div>
 
-        <div className='new-card'>
-<div className='new-card-img'>
-<img src={img1}/>
-</div>
-<div className='new-card-detail'>
-<p className='new-product-name'>Visiting Card</p>
-<p className='new-star'><i class="bi bi-star-fill">
 
-</i><i class="bi bi-star-fill">
 
-</i><i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i></p>
-<p className='newprise'>$ 400</p>
-<div className='hov' id='h'>
-<p>$400</p>
-<button>Add To Cart</button>
 
-</div>
-</div>
+<div className='pd-name'>
+  <p className='rate-star'>
+   <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i> 
+ <p className='rate-no'>(297 Rating)</p> </p>
+  <p className='rate-rate'>$ 400</p>
 
-</div>
-       <div className='new-card'>
-<div className='new-card-img'>
-<img src={img1}/>
-</div>
-<div className='new-card-detail'>
-<p className='new-product-name'>Visiting Card</p>
-<p className='new-star'><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i></p>
-<p className='newprise'>$ 400</p>
-<div className='hov' id='h'>
-<p>$400</p>
-<button>Add To Cart</button>
-
-</div>
 </div>
 
 </div>
         </div>
-        <br/>
-        <br/>
+
+        <div className='pd-card'>
+        <div className='new-card-img'>
+<img src={img1}/>
+</div>
+<div className='new-details'>
+<div className='pd-name'>
+  <p className='pd-name-name'>Product name</p>
+  <p className='pd-name-start'>STARTING AT</p>
+
+</div>
+
+
+
+
+<div className='pd-name'>
+  <p className='rate-star'>
+   <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i> 
+ <p className='rate-no'>(297 Rating)</p> </p>
+  <p className='rate-rate'>$ 400</p>
+
+</div>
+
+</div>
+        </div>
+        <div className='pd-card'>
+        <div className='new-card-img'>
+<img src={img1}/>
+</div>
+<div className='new-details'>
+<div className='pd-name'>
+  <p className='pd-name-name'>Product name</p>
+  <p className='pd-name-start'>STARTING AT</p>
+
+</div>
+
+
+
+
+<div className='pd-name'>
+  <p className='rate-star'>
+   <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i> 
+ <p className='rate-no'>(297 Rating)</p> </p>
+  <p className='rate-rate'>$ 400</p>
+
+</div>
+
+</div>
+        </div>
+
+        
+        </div>
+      
       
         <div className='productpage-cards' id='c2'>
 
-        <div className='new-card'>
-<div className='new-card-img'>
+        <div className='pd-card'>
+        <div className='new-card-img'>
 <img src={img1}/>
 </div>
-<div className='new-card-detail'>
-<p className='new-product-name'>Visiting Card</p>
-<p className='new-star'><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i></p>
-<p className='newprise'>$ 400</p>
-<div className='hov' id='h'>
-<p>$400</p>
-<button>Add To Cart</button>
+<div className='new-details'>
+<div className='pd-name'>
+  <p className='pd-name-name'>Product name</p>
+  <p className='pd-name-start'>STARTING AT</p>
 
 </div>
+<div className='pd-name'>
+  <p className='rate-star'>
+   <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i> 
+ <p className='rate-no'>(297 Rating)</p> </p>
+  <p className='rate-rate'>$ 400</p>
+
 </div>
 
 </div>
-       <div className='new-card'>
-<div className='new-card-img'>
+        </div>
+
+        <div className='pd-card'>
+        <div className='new-card-img'>
 <img src={img1}/>
 </div>
-<div className='new-card-detail'>
-<p className='new-product-name'>Visiting Card</p>
-<p className='new-star'><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i></p>
-<p className='newprise'>$ 400</p>
-<div className='hov' id='h'>
-<p>$400</p>
-<button>Add To Cart</button>
+<div className='new-details'>
+<div className='pd-name'>
+  <p className='pd-name-name'>Product name</p>
+  <p className='pd-name-start'>STARTING AT</p>
 
 </div>
+
+
+
+
+<div className='pd-name'>
+  <p className='rate-star'>
+   <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i> 
+ <p className='rate-no'>(297 Rating)</p> </p>
+  <p className='rate-rate'>$ 400</p>
+
 </div>
 
 </div>
-        <div className='new-card'>
-<div className='new-card-img'>
+        </div>
+        <div className='pd-card'>
+        <div className='new-card-img'>
 <img src={img1}/>
 </div>
-<div className='new-card-detail'>
-<p className='new-product-name'>Visiting Card</p>
-<p className='new-star'><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill">
-
-</i><i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i>
-<i class="bi bi-star-fill"></i></p>
-<p className='newprise'>$ 400</p>
-<div className='hov' id='h'>
-<p>$400</p>
-<button>Add To Cart</button>
+<div className='new-details'>
+<div className='pd-name'>
+  <p className='pd-name-name'>Product name</p>
+  <p className='pd-name-start'>STARTING AT</p>
 
 </div>
+
+
+
+
+<div className='pd-name'>
+  <p className='rate-star'>
+   <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i>
+  <i class="bi bi-star-fill"></i> 
+ <p className='rate-no'>(297 Rating)</p> </p>
+  <p className='rate-rate'>$ 400</p>
+
 </div>
 
 </div>
+        </div>
         </div>
 
 

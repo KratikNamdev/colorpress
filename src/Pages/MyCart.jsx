@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Components/Navbar';
+// import Navbar from '../Components/Navbar';
 import NavCategory from '../Components/NavCategory';
 import img from '../Assets/Rectangle 122.png'
 import HomeCards from '../Components/HomeCards';
@@ -8,7 +8,7 @@ import Footer from '../Components/Footer';
 function MyCart() {
   return (
    <>
-     <Navbar/>
+     {/* <Navbar/> */}
       <NavCategory/>
       <br/>
       <div className='container'>

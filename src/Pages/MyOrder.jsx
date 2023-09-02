@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+// import Navbar from "../Components/Navbar";
 import NavCategory from "../Components/NavCategory";
 import img from "../Assets/Rectangle 122.png";
 import Footer from '../Components/Footer';
@@ -7,7 +7,7 @@ import Footer from '../Components/Footer';
 function MyOrder() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <NavCategory />
       <br/><br/>
       <div className="container">

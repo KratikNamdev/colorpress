@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
+import Navbar from '../Components/Nav/Navbar'
 import Banner from '../Components/Banner'
 import NavCategory from '../Components/NavCategory'
 import HomeCards from '../Components/HomeCards'
@@ -12,7 +12,7 @@ import Footer from '../Components/Footer'
 function Home() {
   return (
 <>
-    <Navbar/>
+   <Navbar/>
     <NavCategory/>
     <br/>
     <Banner/>
